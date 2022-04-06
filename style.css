@@ -1,0 +1,50 @@
+@import "./reset.css";
+
+header {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.container {
+  margin: auto;
+  padding: 2rem 0;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.text span {
+  margin-bottom: 0.7rem;
+}
+
+.id {
+  font-size: 1rem;
+  color: gray;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
